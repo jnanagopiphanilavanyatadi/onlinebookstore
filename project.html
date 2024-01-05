@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.KmmspR8-4MnvX-cRthoMSQAAAA?pid=ImgDet&w=400&h=400&rs=1"> 
+    <link rel="stylesheet" href="C:\Users\siva\Documents\HTML\OYASIS INFOBYTE\project\project.css">
+</head>
+<body>
+    <header>
+        <h1>Online Bookstore</h1>
+    </header>
+    <div class="book-container" id="book-container">
+    </div>
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+            </tbody>
+        </table>
+        <div class="total" id="total">Total: 0.00 Rs</div>
+    </div>
+    <button class="print-Bill" onclick="printBill()">Print Bill</button>
+
+    <script src="project.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

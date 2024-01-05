@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .book {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #0c0c0c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 12px;
+    
+  }
+  .book img {
+    max-width: 250px;
+    height: 250px;
+    margin:10px;
+    border-radius: 50%;
+    border-color: #180202;
+  }
+  .cart-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  .cart-container table {
+    width: 100%;
+  }
+  .cart-container th {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+  }
+  .cart-container td {
+    padding: 8px;
+    text-align: center;
+  }
+  .total {
+    text-align: center;
+    font-weight: bold;
+  }
+  button:link {
+    color: green;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding:8px 120px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  button:visited {
+    color: rgb(81, 189, 251);
+  }
+  button:hover {
+    color: rgb(151, 5, 151);
+  }
+  button:active {
+    color: rgb(220, 245, 95);
+  }
+  button{
+    background-color: #35f63b;
+    color: #180202;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 20%;
+  }
+  button.remove-button {
+    background-color: #ff0000;
+  }
+  button.print-Bill{
+    background-color: rgb(197, 223, 29);
+    margin-left: 50%;
+  }
+  
